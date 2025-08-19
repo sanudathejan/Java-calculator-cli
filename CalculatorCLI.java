@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class CalculatorCLI {
-    public void main(String [] args) {
-        Scanner scanner = new Scanner)System.in);
+    public static void main(String [] args) {
+        Scanner scanner = new Scanner(System.in);
         boolean running = true ;
 
         System.out.println("Simple Calculator ");
@@ -62,7 +62,7 @@ public class CalculatorCLI {
                     System.out.println("Invalid operator!");
                     validOperation = false;
              }
-             if (valiOperation) {
+             if (validOperation) {
                 System.out.println("Result: "+ result + "\n");
              } 
         } 
